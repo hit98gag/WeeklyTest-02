@@ -1,0 +1,58 @@
+.Header{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    background-color: #ffffff;
+    position: sticky;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 6%);
+    
+
+}
+.Black{
+    color: black;
+}
+.Contact{
+    width: 100px;
+}
+.HeaderLeft{
+    height: 70%;
+    width: 50%;
+}
+.logoImg{
+    height: 50% auto;
+    width: 50% ;
+}
+.HeaderCenter{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HeaderRight{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EnquireButton{
+
+    height: 3rem;
+    width: 12rem;
+    border-radius: 22px;
+    background-color: #596aff;
+    color: white;
+    border: none;
+}
+.EnquireButton:hover{
+    background-color: #ffffff;
+    color: black;
+}

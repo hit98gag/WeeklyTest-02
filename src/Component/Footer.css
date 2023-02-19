@@ -1,0 +1,64 @@
+.Footer{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: #18263b;
+}
+.h3Rep{
+    color: #66abff;
+}
+p{
+    color: #f2f2f3;
+}
+
+.AboutUs , .OurInformation, .MyAccount , .Contact{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.UpperDiv{
+    height: 400px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 6rem
+    ;
+}
+.AboutUs{
+    width: 60%;
+
+    
+}
+
+.OurInformation{
+    width: 60%;
+
+
+}
+
+.MyAccount{
+    width: 60%;
+
+
+}
+
+.Contact{
+    width: 60%;
+
+
+}
+.LowerDiv{
+    height: 150px;
+    width: 70%;
+    display: flex;
+}
+
+.Timage{
+    width: 150px;
+    height: 70px;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    
+}

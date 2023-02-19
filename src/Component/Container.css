@@ -1,0 +1,25 @@
+.Container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+    margin-bottom: 5rem;   
+    display: flex;
+    flex-direction: column;
+}
+
+.Upper{
+    height: 100px;
+    color: #596aff;
+}
+
+.Lower{
+    width: 100%;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}

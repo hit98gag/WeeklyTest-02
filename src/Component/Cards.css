@@ -1,0 +1,43 @@
+.CardMain{
+
+    height: 310px;
+    justify-content: center;
+    width: 400px;
+    margin-top:8rem;
+    position: relative;
+    display: flex;
+    background-color: #a8b8ff; 
+    border-radius: 5px;
+    
+
+}
+
+.CardMain:hover{
+    width: 410px;
+    height: 320px;
+    transform: scale(1.10)  ;
+      transition: all 0.2s ease-in-out;
+
+}
+.allImg{
+    height: 80%;
+    width: 100%;
+
+}
+
+.CardPic{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    top: -25px;
+
+}
+.CardTag{
+    height: 50px;
+    width: 350px;
+    position: absolute;
+    top: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
